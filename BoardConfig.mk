@@ -90,19 +90,15 @@ TW_THEME := portrait_hdpi
 TW_USE_TOOLBOX := true
 TW_IGNORE_MISC_WIPE_DATA := true
 TW_USE_LEDS_HAPTICS := true
+TW_DEFAULT_LANGUAGE:=zh_CN
 
 # NOTE - Dont use '-' or blank spaces in flag values , otherwise it will create build errors or other bugs in recovery (Excluding SHRP_PATH,SHRP_REC). 
-
 # Path of your SHRP Tree
 
 SHRP_PATH := device/meizu/m1892
-
 # Maintainer name *
-
 SHRP_MAINTAINER := wwrrj
-
 # Device codename *
-
 SHRP_DEVICE_CODE := m1892
 
 # Recovery Type (It can be treble,normal,SAR) [Only for About Section] *
@@ -120,8 +116,6 @@ SHRP_STATUSBAR_LEFT_PADDING := 16
 SHRP_NOTCH := true
 
 SHRP_EXPRESS := true
-
-SHRP_DARK := true
 
 SHRP_EDL_MODE := 1
 
